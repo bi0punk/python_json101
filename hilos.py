@@ -8,6 +8,7 @@ def ejecucion_horaria(segundos):
     @param segundos: Ejecuta un print cada tantos segundos. 
     """
     print("Thread ejecuta cada %d" % segundos)
+    print(segundos)
     for i in range(10):
         print("Ejecucion horaria, pasada %d" % i)
         time.sleep(segundos)
@@ -17,7 +18,7 @@ def ejecucion_horaria(segundos):
 # El segundo argumento es una lista de argumentos para esa funcion .
 # Ojo con la coma al final!
 
-hilo = threading.Thread(target=ejecucion_horaria, args=(10,))
+hilo = threading.Thread(target=ejecucion_horaria, args=(2,))
 hilo.start()   # Iniciamos la ejecución del thread,
 
 # La ejecución sigue de inmediato aqui, mientras el thread 
