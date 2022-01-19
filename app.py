@@ -18,7 +18,7 @@ url = "https://api-sismologia-chile.herokuapp.com/"
 df = pd.read_json(url)
 
 
-print(type(df.head(1)))
+
 print(type(df.iloc[0,:].tolist()))
 
 
@@ -45,3 +45,4 @@ val = ('2012-06-18 10:34:09', '2012-06-18 10:34:09', lat_sis, long_sis, prof_sis
 
 """ print(mycursor.rowcount, "Dato insertado correctamente.") """
 
+""" print(type(df.head(1))) """
