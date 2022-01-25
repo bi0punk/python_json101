@@ -18,10 +18,7 @@ url = "https://api-sismologia-chile.herokuapp.com/"
 df = pd.read_json(url)
 
 
-
 print(type(df.iloc[0,:].tolist()))
-
-
 
 
 fec_loc = (df.iloc[1, 0])
