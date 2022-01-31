@@ -1,0 +1,15 @@
+"               FechaLocal             FechaUTC  Latitud  Longitud Profundidad Magnitud                         Referencia   r
+0     06:42:00 2022/01/16  09:42:00 2022/01/16 -31464.0  -72731.0     46.5 Km   3.2 ML         121 km al O de Canela Baja NaN
+1     08:55:30 2022/01/16  11:55:30 2022/01/16 -24424.0  -69291.0     86.1 Km   2.6 ML  29 km al SO de Mina La Escondida. NaN
+2     10:36:34 2022/01/16  13:36:34 2022/01/16 -23441.0  -67156.0    249.6 Km   3.4 ML              77 km al E de Socaire NaN
+3     12:09:05 2022/01/16  15:09:05 2022/01/16 -22119.0  -68696.0    114.0 Km   2.7 ML              46 km al NE de Calama NaN
+4     11:50:04 2022/01/16  14:50:04 2022/01/16 -22243.0  -68750.0     98.2 Km   2.6 ML              31 km al NE de Calama NaN
+...                   ...                  ...      ...       ...         ...      ...                                ...  ..
+7538  2022-01-29 18:45:57  2022-01-29 21:45:57 -20883.0  -69138.0       106.7   2.5 Ml                48 km al SE de Pica NaN
+7590  2022-01-29 18:57:03  2022-01-29 21:57:03 -32142.0  -70415.0       142.1   2.7 Ml  39 km al SE de Mina Los Pelambres NaN
+7916  2022-01-29 19:16:06  2022-01-29 22:16:06 -21249.0  -68804.0        97.1   2.8 Ml      49 km al S de Mina Collahuasi NaN
+7972  2022-01-29 20:05:58  2022-01-29 23:05:58 -24232.0  -67658.0       223.6   3.3 Ml              75 km al S de Socaire NaN
+7973  2022-01-30 01:48:14  2022-01-30 04:48:14 -22817.0  -70145.0        52.6   2.6 Ml          44 km al NE de Mejillones NaN
+
+[270 rows x 8 columns]"
+FechaLocal,FechaUTC,Latitud,Longitud,Profundidad,Magnitud,Referencia,r

@@ -25,7 +25,7 @@ with open('datasismos.csv', 'a', newline='') as f_object:
         f_object.close()
 
 
-""" print(df_notduplicate) """ 
+
     
     
 
